@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/ManojGowda27/bnb-booking/pkg/config"
-	"github.com/ManojGowda27/bnb-booking/pkg/models"
+	"github.com/ManojGowda27/bnb-booking/internal/config"
+	"github.com/ManojGowda27/bnb-booking/internal/models"
 	"github.com/justinas/nosurf"
 )
 
@@ -17,12 +17,12 @@ var functions = template.FuncMap{}
 
 var app *config.AppConfig
 
-//NewTemplate sets the config for the template package
+// NewTemplate sets the config for the template package
 func NewTemplates(a *config.AppConfig) {
 	app = a
 }
 
-func AddDefaultData (td *models.TemplateData, r *http.Request) *models.TemplateData {
+func AddDefaultData(td *models.TemplateData, r *http.Request) *models.TemplateData {
 	td.CSRFToken = nosurf.Token(r)
 	return td
 }
@@ -38,7 +38,7 @@ func RenderTemplate(w http.ResponseWriter, r *http.Request, tmpl string, td *mod
 		tc = app.TemplateCache
 	} else {
 		tc, _ = CreateTemplateCache()
-	} 
+	}
 
 	t, ok := tc[tmpl]
 	if !ok {

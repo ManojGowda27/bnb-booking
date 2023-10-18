@@ -6,18 +6,18 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ManojGowda27/bnb-booking/pkg/config"
-	"github.com/ManojGowda27/bnb-booking/pkg/handlers"
-	"github.com/ManojGowda27/bnb-booking/pkg/render"
+	"github.com/ManojGowda27/bnb-booking/internal/config"
+	handler "github.com/ManojGowda27/bnb-booking/internal/handlers"
+	"github.com/ManojGowda27/bnb-booking/internal/render"
 	"github.com/alexedwards/scs/v2"
 )
 
 const portNumber = ":8080"
+
 var app config.AppConfig
 var session *scs.SessionManager
 
-
-func main(){
+func main() {
 
 	// change this to true when in production
 	app.InProduction = false
@@ -45,12 +45,11 @@ func main(){
 
 	fmt.Printf("Starting application on port %s", portNumber)
 
-	srv := &http.Server {
-		Addr: portNumber,
-		Handler : routes(&app),
+	srv := &http.Server{
+		Addr:    portNumber,
+		Handler: routes(&app),
 	}
 
 	err = srv.ListenAndServe()
 	log.Fatal(err)
 }
-
