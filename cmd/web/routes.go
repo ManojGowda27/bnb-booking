@@ -6,6 +6,7 @@ import (
 	"github.com/ManojGowda27/bnb-booking/internal/config"
 	handler "github.com/ManojGowda27/bnb-booking/internal/handlers"
 	"github.com/go-chi/chi"
+	"github.com/go-chi/chi/middleware"
 )
 
 func routes(app *config.AppConfig) http.Handler {
@@ -13,15 +14,21 @@ func routes(app *config.AppConfig) http.Handler {
 
 	mux.Use(NoSurf)
 	mux.Use(SessionLoad)
+	mux.Use(middleware.Recoverer)
 
 	mux.Get("/", handler.Repo.Home)
 	mux.Get("/about", handler.Repo.About)
 	mux.Get("/generals-quarters", handler.Repo.Generals)
 	mux.Get("/majors-suite", handler.Repo.Majors)
+
 	mux.Get("/search-availability", handler.Repo.Availability)
 	mux.Post("/search-availability", handler.Repo.PostAvailability)
 	mux.Post("/search-availability-json", handler.Repo.AvailabilityJSON)
+
 	mux.Get("/make-reservation", handler.Repo.Reservation)
+	mux.Post("/make-reservation", handler.Repo.PostReservation)
+	mux.Get("/reservation-summary", handler.Repo.ReservationSummary)
+
 	mux.Get("/contact", handler.Repo.Contact)
 
 	fileServer := http.FileServer(http.Dir("./static"))

@@ -1,0 +1,22 @@
+mode: set
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:24.47,28.2 1 1
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:31.33,33.2 1 1
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:36.67,41.2 3 1
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:44.68,54.2 5 1
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:57.74,65.2 4 1
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:68.78,70.16 2 1
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:70.16,73.3 2 0
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:75.2,88.19 6 1
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:88.19,97.3 4 0
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:99.2,101.66 2 1
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:105.71,107.2 1 1
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:110.69,112.2 1 1
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:115.75,117.2 1 1
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:120.79,129.2 3 1
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:137.79,145.16 3 1
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:145.16,147.3 1 0
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:149.2,151.14 3 1
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:155.70,157.2 1 1
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:159.81,161.9 2 1
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:161.9,166.3 4 1
+github.com/ManojGowda27/bnb-booking/internal/handlers/handlers.go:167.2,174.4 4 0

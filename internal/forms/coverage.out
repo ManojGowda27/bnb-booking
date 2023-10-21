@@ -1,0 +1,18 @@
+mode: set
+github.com/ManojGowda27/bnb-booking/internal/forms/errors.go:6.44,8.2 1 1
+github.com/ManojGowda27/bnb-booking/internal/forms/errors.go:11.42,13.18 2 0
+github.com/ManojGowda27/bnb-booking/internal/forms/errors.go:13.18,15.3 1 0
+github.com/ManojGowda27/bnb-booking/internal/forms/errors.go:16.2,16.14 1 0
+github.com/ManojGowda27/bnb-booking/internal/forms/forms.go:18.29,20.2 1 1
+github.com/ManojGowda27/bnb-booking/internal/forms/forms.go:23.33,28.2 1 1
+github.com/ManojGowda27/bnb-booking/internal/forms/forms.go:31.43,32.31 1 1
+github.com/ManojGowda27/bnb-booking/internal/forms/forms.go:32.31,34.37 2 1
+github.com/ManojGowda27/bnb-booking/internal/forms/forms.go:34.37,36.4 1 1
+github.com/ManojGowda27/bnb-booking/internal/forms/forms.go:41.39,44.13 2 1
+github.com/ManojGowda27/bnb-booking/internal/forms/forms.go:44.13,47.3 2 1
+github.com/ManojGowda27/bnb-booking/internal/forms/forms.go:48.2,48.13 1 1
+github.com/ManojGowda27/bnb-booking/internal/forms/forms.go:52.57,55.21 2 1
+github.com/ManojGowda27/bnb-booking/internal/forms/forms.go:55.21,58.3 2 1
+github.com/ManojGowda27/bnb-booking/internal/forms/forms.go:59.2,59.13 1 1
+github.com/ManojGowda27/bnb-booking/internal/forms/forms.go:63.38,64.40 1 1
+github.com/ManojGowda27/bnb-booking/internal/forms/forms.go:64.40,66.3 1 1

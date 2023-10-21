@@ -1,0 +1,23 @@
+mode: set
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:23.40,25.2 1 1
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:27.84,34.2 5 1
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:37.105,42.18 2 1
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:42.18,45.3 1 0
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:45.8,47.3 1 1
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:49.2,50.9 2 1
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:50.9,53.3 2 0
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:55.2,62.16 5 1
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:62.16,65.3 2 0
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:67.2,67.12 1 1
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:72.67,77.16 3 1
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:77.16,79.3 1 0
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:81.2,81.29 1 1
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:81.29,84.17 3 1
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:84.17,86.4 1 0
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:88.3,89.17 2 1
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:89.17,91.4 1 0
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:93.3,93.23 1 1
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:93.23,95.18 2 1
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:95.18,97.5 1 0
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:100.3,100.21 1 1
+github.com/ManojGowda27/bnb-booking/internal/render/render.go:103.2,103.21 1 1
